@@ -5,8 +5,9 @@
 package websocket
 
 import (
-	"encoding/json"
 	"io"
+
+	json "github.com/let-s-go/jsoniter"
 )
 
 // WriteJSON is deprecated, use c.WriteJSON instead.
